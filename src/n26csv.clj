@@ -73,7 +73,7 @@
   "Replaces the special characters with spaces."
   [s]
   (when (not (string/blank? s))
-    (string/replace s #"[:;|\[\]]" " ")))
+    (string/replace s #"[;|\[\]]" " ")))
 
 (defn trim+condense-whitespaces
   "Trims string and condenses several whitespaces to one space."
