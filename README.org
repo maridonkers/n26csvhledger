@@ -1,0 +1,12 @@
+Converts exported N26 CSV-file to HLedger.
+
+* Usage
+Place files n26csv and n26csv.jar in a subdirectory; make n26csv executable and add the subdirectory to your path (if its not already in there). Also a Java runtime environment (JRE) is required.
+
+* Releases:
+
+|  ID | URL                                                                |
+|-----+--------------------------------------------------------------------|
+| 0.1 | https://github.com/maridonkers/n26csvhledger/releases/tag/0.1 |
+|     |                                                                    |
+
