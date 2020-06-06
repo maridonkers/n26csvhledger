@@ -1,0 +1,8 @@
+;; http://jr0cket.co.uk/2019/07/a-deeper-understanding-of-Clojure-CLI-tools.html
+;; java -cp n26csv.jar clojure.main -m n26csv
+{:paths ["src"]
+ :deps {org.clojure/spec.alpha {:mvn/version "0.2.187"}
+        digest {:mvn/version "1.4.9"}}
+ :aliases {:depstar ; clojure -A:depstar -m hf.depstar.uberjar n26csv.jar
+           {:extra-deps
+            {seancorfield/depstar {:mvn/version "0.2.4"}}}}}
